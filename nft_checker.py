@@ -19,7 +19,8 @@ class NFTChecker:
         
         spamwriter.writerow([])
         spamwriter.writerow(['TOTAL AMOUNT', sum(total_amount)])
-    
+
+        
         return total_amount
     
     def write_small_wallets_to_csv(self, spamwriter, small_wallets):
