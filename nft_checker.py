@@ -7,6 +7,7 @@ from tabulate import tabulate
 
 class NFTChecker:
 
+    
     def __init__(self):
         self.send_file = f'results/nft_balances.csv'
     
